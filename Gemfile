@@ -6,6 +6,9 @@ gem 'rails', '4.0.2'
 # Use postgres for the database
 gem 'pg'
 
+# Styling
+gem 'bourbon'
+
 # Google Maps
 gem 'gmaps4rails'
 
