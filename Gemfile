@@ -6,6 +6,9 @@ gem 'rails', '4.0.2'
 # Use postgres for the database
 gem 'pg'
 
+# Google Maps
+gem 'gmaps4rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
