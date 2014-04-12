@@ -8,7 +8,7 @@ gem 'pg'
 
 # Styling
 gem 'bourbon'
-gem 'refills'
+#gem 'refills'
 
 # Google Maps
 gem 'gmaps4rails'
