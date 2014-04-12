@@ -12,8 +12,18 @@ $(function(){
           map: map,
           title: 'Hello World!'
         });
+
+        //var contentString = "http://www.space-photos.info/ISSPhotos/512_IP0201303271735394157S07155W.jpg"
+        var infowindow = new google.maps.InfoWindow({
+          content: "<img src='http://www.space-photos.info/ISSPhotos/512_IP0201303271735394157S07155W.jpg' alt='image in infowindow'>"
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+        });
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
+      
+  });
 
-    });
