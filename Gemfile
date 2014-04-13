@@ -6,6 +6,11 @@ gem 'rails', '4.0.2'
 # Use postgres for the database
 gem 'pg'
 
+# Styling
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+gem 'therubyracer'
+
 # Google Maps
 gem 'gmaps4rails'
 
