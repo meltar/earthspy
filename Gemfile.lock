@@ -150,11 +150,8 @@ DEPENDENCIES
   gmaps4rails
   jbuilder (~> 1.2)
   jquery-rails
-<<<<<<< HEAD
   less-rails
-=======
   momentjs-rails
->>>>>>> now you can search, if you want
   pg
   pry
   rails (= 4.0.2)
