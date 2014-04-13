@@ -30,7 +30,10 @@ $(function(){
         var country = eachMarker.find("OpenMapsCountry").text();
         var datetime = eachMarker.find("ImageDateTime").text();
         datetime = moment(datetime).format('MMM DD YYYY, hh:mm:ss a');
-        var html = "<p><strong>Location: </strong>"+ country + "</p><p><strong>Taken at: </strong>" + datetime +"</p><img src='"+ image + "'>";
+
+				var twitter_content = "https://twitter.com/intent/tweet?url=" + image + "&hashtags=earthspy,space"
+				var twitter_link = "<br><a href=" + twitter_content + ">Share on Twitter</a>"
+        var html = "<p><strong>Location: </strong>"+ country + "</p><p><strong>Taken at: </strong>" + datetime +"</p><img src='"+ image + "'>" + twitter_link;
         var marker = addMarker(html, markerCoords);
 
         });
