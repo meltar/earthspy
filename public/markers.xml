@@ -20,25 +20,15 @@
     <OpenMapsCountry>Argentina</OpenMapsCountry>
     <OpenMapsCountryCode>ar</OpenMapsCountryCode>
   </marker>
-  <marker>
+    <marker>
     <markerId>2</markerId>
     <FTPDirectory>ftp://ghrc.nsstc.nasa.gov/pub/iserv/data/L0/2013/03</FTPDirectory>
-    <name>IP0201303271418280962S05837W.zip</name>
-    <FullResImageUrl>http://www.space-photos.info/ISSPhotos/IP0201303271418280962S05837W.jpg</FullResImageUrl>
-    <ImageUrl2048>http://www.space-photos.info/ISSPhotos/2048_IP0201303271418280962S05837W.jpg</ImageUrl2048>
-    <ImageUrl1024>http://www.space-photos.info/ISSPhotos/1024_IP0201303271418280962S05837W.jpg</ImageUrl1024>
-    <ImageUrl512>http://www.space-photos.info/ISSPhotos/512_IP0201303271418280962S05837W.jpg</ImageUrl512>
-    <ImageDateTime>2013-03-27T14:18:28</ImageDateTime>
-    <LexicalLatitude>S09°62'</LexicalLatitude>
-    <LexicalLongitude>W058°37'</LexicalLongitude>
-    <NumericLatitude>-9.62</NumericLatitude>
-    <NumericLongitude>-58.37</NumericLongitude>
-    <OpenMapsRoad />
-    <OpenMapsCity />
-    <OpenMapsStateDistrict />
-    <OpenMapsState>MT</OpenMapsState>
-    <OpenMapsCountry>Brazil</OpenMapsCountry>
-    <OpenMapsCountryCode>br</OpenMapsCountryCode>
+    <name>Catlanta</name>
+    <ImageUrl512>https://raw.github.com/meltar/earthspy/master/app/assets/images/cat.gif</ImageUrl512>
+    <ImageDateTime>2014-04-12:18:28</ImageDateTime>
+    <NumericLatitude>33.767</NumericLatitude>
+    <NumericLongitude>-84.42</NumericLongitude>    
+    <OpenMapsCountry>Atlanta</OpenMapsCountry>
   </marker>
   <marker>
     <markerId>3</markerId>
