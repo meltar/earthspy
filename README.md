@@ -3,6 +3,8 @@
 
 ![astronaut cat](https://raw.github.com/meltar/earthspy/master/app/assets/images/cat.gif)
 
+View the site at [earthspy.herokupp.com](http://earthspy.herokuapp.com/)
+
 ### To get this app up and running, run these commands in console:
 
 Install all of the necessary gems listed in the Gemfile
