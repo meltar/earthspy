@@ -26,7 +26,9 @@ jQuery.get("../markers.xml", function(data) {
     var name = eachMarker.find("Name").text();
     var image = eachMarker.find("ImageUrl512").text();
     var country = eachMarker.find("OpenMapsCountry").text();
-    var html = "<p>"+ country +"</p><img src='"+ image + "'>";
+    var twitter_content = "https://twitter.com/intent/tweet?url=" + image + "&hashtags=earthspy,space"
+		var twitter_link = "<br><a href=" + twitter_content + ">Share on Twitter</a>"
+    var html = "<p>"+ country +"</p><img src='"+ image + "'>" + twitter_link;
     var marker = addMarker(html, markerCoords);
 
     });
