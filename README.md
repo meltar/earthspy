@@ -1,5 +1,4 @@
 # EarthSpy
-===========
 
 ![astronaut cat](https://raw.github.com/meltar/earthspy/master/app/assets/images/cat.gif)
 
@@ -46,6 +45,6 @@ http://www.space-photos.info/
 - Learn to write Javascript specs
 - Clean up Rails code since the database is no longer needed or add features that use it.
 
-##Project Contributors:
-* [@meltar](https://github.com/meltar)
-* [@kyfast](https://github.com/kyfast)
+### Authors
+* Melissa Holmes [@meltar](https://github.com/meltar)
+* Kylie Stradley [@kyfast](https://github.com/kyfast)
